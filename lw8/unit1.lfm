@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 394
+  Height = 436
+  Top = 30
+  Width = 822
+  Caption = 'Form1'
+  ClientHeight = 436
+  ClientWidth = 822
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object ButtonGenerate: TButton
+    Left = 8
+    Height = 32
+    Top = 394
+    Width = 195
+    Caption = 'ButtonGenerate'
+    TabOrder = 0
+    OnClick = ButtonGenerateClick
+  end
+  object ButtonCalculate: TButton
+    Left = 304
+    Height = 33
+    Top = 393
+    Width = 198
+    Caption = 'ButtonCalculate'
+    TabOrder = 1
+    OnClick = ButtonCalculateClick
+  end
+  object EditN: TEdit
+    Left = 8
+    Height = 32
+    Top = 73
+    Width = 80
+    TabOrder = 2
+    Text = 'EditN'
+  end
+  object StringGrid1: TStringGrid
+    Left = 216
+    Height = 336
+    Top = 40
+    Width = 320
+    TabOrder = 3
+  end
+  object MemoResult: TMemo
+    Left = 552
+    Height = 336
+    Top = 40
+    Width = 270
+    Lines.Strings = (
+      'MemoResult'
+    )
+    TabOrder = 4
+  end
+  object LabelTitle: TLabel
+    Left = 8
+    Height = 18
+    Top = 8
+    Width = 59
+    Caption = 'LabelTitle'
+  end
+  object ButtonClear: TButton
+    Left = 624
+    Height = 33
+    Top = 393
+    Width = 195
+    Caption = 'ButtonClear'
+    TabOrder = 5
+    OnClick = ButtonClearClick
+  end
+  object LabelN: TLabel
+    Left = 8
+    Height = 18
+    Top = 48
+    Width = 43
+    Caption = 'LabelN'
+  end
+end

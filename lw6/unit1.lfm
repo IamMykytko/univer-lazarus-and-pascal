@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 672
+  Height = 357
+  Top = 30
+  Width = 552
+  Caption = 'Form1'
+  ClientHeight = 357
+  ClientWidth = 552
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object EditN: TEdit
+    Left = 10
+    Height = 32
+    Top = 72
+    Width = 80
+    TabOrder = 0
+    Text = ' '
+  end
+  object ButtonCalculate: TButton
+    Left = 10
+    Height = 34
+    Top = 264
+    Width = 256
+    Caption = 'ButtonCalculate'
+    TabOrder = 1
+    OnClick = ButtonCalculateClick
+  end
+  object MemoResult: TMemo
+    Left = 400
+    Height = 304
+    Top = 0
+    Width = 150
+    Lines.Strings = (
+      'MemoResult'
+    )
+    TabOrder = 2
+  end
+  object RadioGroupCycle: TRadioGroup
+    Left = 10
+    Height = 105
+    Top = 152
+    Width = 256
+    AutoFill = True
+    Caption = 'RadioGroupCycle'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    TabOrder = 3
+  end
+  object LabelTitle: TLabel
+    Left = 10
+    Height = 18
+    Top = 10
+    Width = 59
+    Caption = 'LabelTitle'
+  end
+  object LabelN: TLabel
+    Left = 10
+    Height = 18
+    Top = 48
+    Width = 43
+    Caption = 'LabelN'
+  end
+  object ButtonClear: TButton
+    Left = 416
+    Height = 33
+    Top = 312
+    Width = 131
+    Caption = 'ButtonClear'
+    TabOrder = 4
+    OnClick = ButtonClearClick
+  end
+end

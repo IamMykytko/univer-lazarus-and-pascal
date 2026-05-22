@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 343
+  Height = 388
+  Top = 30
+  Width = 446
+  Caption = 'Form1'
+  ClientHeight = 388
+  ClientWidth = 446
+  LCLVersion = '4.6.0.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 18
+    Top = 72
+    Width = 246
+    Caption = 'Площа правильного шестикутника S = '
+  end
+  object Label2: TLabel
+    Left = 94
+    Height = 18
+    Top = 128
+    Width = 160
+    Caption = 'Площа вписаного кола = '
+  end
+  object Label3: TLabel
+    Left = 87
+    Height = 18
+    Top = 192
+    Width = 167
+    Caption = 'Радіус вписаного кола R = '
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 18
+    Top = 8
+    Width = 433
+    AutoSize = False
+    Caption = 'Лабораторна №1 - Варіант 10'
+  end
+  object Button1: TButton
+    Left = 320
+    Height = 41
+    Top = 264
+    Width = 112
+    Caption = 'Обчислити'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 264
+    Height = 32
+    Top = 72
+    Width = 168
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 264
+    Height = 32
+    Top = 128
+    Width = 168
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 94
+    Height = 128
+    Top = 240
+    Width = 160
+    Stretch = True
+    OnClick = Image1Click
+  end
+end

@@ -1,0 +1,66 @@
+object Form1: TForm1
+  Left = 343
+  Height = 495
+  Top = 30
+  Width = 810
+  Caption = 'Form1'
+  ClientHeight = 495
+  ClientWidth = 810
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object EditNumber: TEdit
+    Left = 632
+    Height = 32
+    Top = 392
+    Width = 152
+    TabOrder = 0
+    Text = 'EditNumber'
+    OnKeyPress = EditNumberKeyPress
+  end
+  object ButtonCalculate: TButton
+    Left = 632
+    Height = 32
+    Top = 440
+    Width = 152
+    Caption = 'ButtonCalculate'
+    TabOrder = 1
+    OnClick = ButtonCalculateClick
+  end
+  object LabelTitle: TLabel
+    Left = 24
+    Height = 18
+    Top = 24
+    Width = 59
+    Caption = 'LabelTitle'
+  end
+  object LabelInput: TLabel
+    Left = 24
+    Height = 18
+    Top = 80
+    Width = 66
+    Caption = 'LabelInput'
+  end
+  object PanelResult: TPanel
+    Left = 0
+    Height = 50
+    Top = 128
+    Width = 810
+    Align = alCustom
+    Caption = 'PanelResult'
+    TabOrder = 2
+  end
+  object LabelResult: TLabel
+    Left = 24
+    Height = 18
+    Top = 248
+    Width = 71
+    Caption = 'LabelResult'
+  end
+  object LabelDigits: TLabel
+    Left = 24
+    Height = 18
+    Top = 200
+    Width = 68
+    Caption = 'LabelDigits'
+  end
+end

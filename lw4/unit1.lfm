@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 343
+  Height = 460
+  Top = 30
+  Width = 605
+  Caption = 'Form1'
+  ClientHeight = 460
+  ClientWidth = 605
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object LabelTitle: TLabel
+    Left = 8
+    Height = 18
+    Top = 8
+    Width = 59
+    Caption = 'LabelTitle'
+  end
+  object EditLength: TEdit
+    Left = 216
+    Height = 32
+    Top = 48
+    Width = 128
+    TabOrder = 0
+    Text = 'EditLength'
+  end
+  object EditNorm1: TEdit
+    Left = 216
+    Height = 32
+    Top = 96
+    Width = 128
+    TabOrder = 1
+    Text = 'EditNorm1'
+  end
+  object EditNorm2: TEdit
+    Left = 216
+    Height = 32
+    Top = 144
+    Width = 128
+    TabOrder = 2
+    Text = 'EditNorm2'
+  end
+  object ButtonDetermine: TButton
+    Left = 392
+    Height = 48
+    Top = 400
+    Width = 203
+    Caption = 'ButtonDetermine'
+    TabOrder = 3
+    OnClick = ButtonDetermineClick
+  end
+  object LabelCategory: TLabel
+    Left = 8
+    Height = 18
+    Top = 272
+    Width = 89
+    Caption = 'LabelCategory'
+  end
+  object LabelInfo: TLabel
+    Left = 8
+    Height = 18
+    Top = 312
+    Width = 58
+    Caption = 'LabelInfo'
+  end
+  object LabelNorm1: TLabel
+    Left = 8
+    Height = 18
+    Top = 96
+    Width = 76
+    Caption = 'LabelNorm1'
+  end
+  object LabelNorm2: TLabel
+    Left = 8
+    Height = 18
+    Top = 144
+    Width = 76
+    Caption = 'LabelNorm2'
+  end
+  object LabelLength: TLabel
+    Left = 8
+    Height = 18
+    Top = 48
+    Width = 76
+    Caption = 'LabelLength'
+  end
+  object PanelResult: TPanel
+    Left = 8
+    Height = 50
+    Top = 208
+    Width = 586
+    Caption = 'PanelResult'
+    TabOrder = 4
+  end
+end

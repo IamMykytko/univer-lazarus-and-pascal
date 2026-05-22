@@ -1,0 +1,44 @@
+object FormMain: TFormMain
+  Left = 400
+  Height = 351
+  Top = 30
+  Width = 411
+  Caption = 'FormMain'
+  ClientHeight = 351
+  ClientWidth = 411
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object LabelTitle: TLabel
+    Left = 176
+    Height = 18
+    Top = 32
+    Width = 59
+    Caption = 'LabelTitle'
+  end
+  object LabelPlayers: TLabel
+    Left = 128
+    Height = 18
+    Top = 104
+    Width = 77
+    Caption = 'LabelPlayers'
+  end
+  object ComboPlayers: TComboBox
+    Left = 168
+    Height = 32
+    Top = 144
+    Width = 100
+    ItemHeight = 30
+    TabOrder = 0
+    Text = 'ComboPlayers'
+  end
+  object ButtonStart: TButton
+    Left = 168
+    Height = 28
+    Top = 200
+    Width = 85
+    AutoSize = True
+    Caption = 'ButtonStart'
+    TabOrder = 1
+    OnClick = ButtonStartClick
+  end
+end
